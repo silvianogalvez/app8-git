@@ -1,0 +1,84 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>App8 Juntar app 4,5 y 7</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema-app8.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="phonegap.js"></script><!-- necesario*/ -->
+<script src="js/acciones.js"></script>
+</head> 
+<body> 
+<div data-role="page" id="Principal" data-theme="b">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1> Aplicación 8  Juntar app 4, 5 y 7</h1>
+ </div>
+  <div data-role="main" class="ui-content" align="center">
+ </div>   
+   <div>
+      <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+      <li class="ui-first-child ui-last-child">
+        <a href="indexapp4.html"target="_self" class="ui-btn ui-btn-icon-right ui-icon-carat-r">  
+           <h2>Aplicación 4 </h2>
+           <p> -Datos del dispositivo- </p>
+        </a>
+       </li> 
+      <li class="ui-first-child ui-last-child">
+        <a href="indexapp5.html" target="_self" class="ui-btn ui-btn-icon-right ui-icon-carat-r">       
+          <h2> Aplicación 5 </h2>
+          <p> -Beepear y vibrar- </p>
+        </a>
+      </li>
+      <li class="ui-first-child ui-last-child">
+      <a href="indexapp7.html" target="_self" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2> Aplicación 7 </h2>
+           <p>  -Deslizar- </p>
+        </a>
+      </li>
+      </ul>
+    </div>
+ <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+  <h4> SILVIANO GALVEZ SEGUNDO 4to.F </h4>
+   <img src="res/android/mdpi.png" width="56" height="46">
+ </div>
+</div> 
+ <div data-role="page" id="app4/index.html" data-add-back-btn="true" data-theme="b">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1> Aplicación 4 </h1>
+     </div>
+     <div data-role="footer" align="center" data-theme="b" data-position="fixed">     
+       <h4> Aplicación 8 </h4>
+        <img src="res/android/mdpi.png" width="56" height="46">
+     </div>
+    </div>
+   </div>
+   <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1> Aplicación 5 </h1>
+     </div>
+     <div data-role="footer" align="center" data-theme="b" data-position="fixed">     
+       <h4> Aplicación octava, JLVM </h4>
+        <img src="res/android/mdpi.png" width="56" height="46">
+     </div>
+    </div>
+   </div>
+   <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1> Aplicación 7 </h1>
+     </div>
+     <div data-role="footer" align="center" data-theme="b" data-position="fixed">     
+       <h4> Aplicación 8 </h4>
+        <img src="res/android/mdpi.png" width="56" height="46">
+     </div>
+    </div>
+   </div>
+  
+ </body>
+</html>
